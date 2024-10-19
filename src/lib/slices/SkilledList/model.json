@@ -1,0 +1,49 @@
+{
+  "id": "skilled_list",
+  "type": "SharedSlice",
+  "name": "SkilledList",
+  "description": "SkilledList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          }
+        },
+        "item": {
+          "type": "Group",
+          "config": {
+            "label": "Item",
+            "repeat": true,
+            "fields": {
+              "skill_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Skill Name",
+                  "placeholder": ""
+                }
+              },
+              "skill_color": {
+                "type": "Color",
+                "config": {
+                  "label": "Skill Color",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
